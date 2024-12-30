@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:420px) {
+    .tasklistnumber{
+        flex-wrap: wrap;
+
+    }
+    #tasklist>div{
+        /* width: 60vw; */
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #tasklist{
+        flex-direction: column;
+        overflow-y: auto;
+        height: 32vh;
+        padding: 0;
+        /* margin-bottom: 2vh; */
+    }
+    #employeDashboard{
+        height: 100vh;
+        /* padding-bottom: 2vh; */
+    }
+    #form{
+        flex-direction: column;
+    }
+    #form1{
+        width: 100%;
+    }
+    #form2{
+        padding: 20px;
+        align-items: center;
+        width: 100%;
+
+    }
+    #form2div{
+        width: 100%;
+
+    }
+    #textarea{
+        height: 20vh;
+        width: 100%;
+    }
+    #admin{
+        height: 155vh;
+    }
+}
+
+#tasklist::-webkit-scrollbar{
+    display: none;
+}
